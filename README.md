@@ -5,6 +5,14 @@ needing to move the App Engine Standard for Python 2.7 apps to App Engine
 Standard for Python 3.8. Many of the steps here would also be helpful if the
 target environment were another Python 3.x system.
 
+## Contributing changes
+
+* See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## Licensing
+
+* See [LICENSE](LICENSE)
+
 ## Planning for migration
 
 Migrating an app from App Engine Standard for Python 2.7 (called "Gen 1"
