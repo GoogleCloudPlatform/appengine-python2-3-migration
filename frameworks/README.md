@@ -29,7 +29,7 @@ are shown in this table:
 | --- | --- | --- |
 | import statement | `import webapp2` | `from flask import Flask` |
 | initialization | `app = webapp2.WSGIApplication([])` | `app = Flask(__name__)` |
-| routing | defined at initialization,<br>as (_route_, _Class Name_) pairs, e.g.,<br> `app = webapp2.WSGIapplication([`<br> `   ('/', HandlerClass)`<br>`])` | decorators, e.g., <br> `@app.route('/', methods=['GET'])` |
+| routing | defined at initialization,<br>as (_route_, _Class Name_) pairs, e.g.,<br> `app = webapp2.WSGIapplication([`<br> `&nbsp;&nbsp;&nbsp;&nbsp;('/', HandlerClass)`<br>`])` | decorators, e.g., <br> `@app.route('/', methods=['GET'])` |
 | handlers | class methods, named for HTTP verb | decorated methods, any name |
 | "Hello, world" examples | [GitHub](https://github.com/GoogleCloudPlatform/python-docs-samples/blob/master/appengine/standard/hello_world/main.py) | [GitHub](https://github.com/GoogleCloudPlatform/python-docs-samples/blob/master/appengine/standard/flask/hello_world/main.py) |
 
