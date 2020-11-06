@@ -1,0 +1,3 @@
+googleapis_common_protos
+google-cloud-datastore
+flask==1.1.2
