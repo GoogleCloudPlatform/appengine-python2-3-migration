@@ -18,4 +18,4 @@ To deploy and run this sample in App Engine standard for Python 2.7:
 
 To deploy and run this sample in App Engine standard for Python 3.7:
 
-    gcloud app deploy app3.yaml
+    gcloud app deploy app3.yaml index.yaml
