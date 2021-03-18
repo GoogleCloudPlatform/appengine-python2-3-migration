@@ -52,3 +52,7 @@ address them one at a time in a way that continues to work under Python 2
 in the Gen 1 environment, but will also work once the app is moved to
 Python 3 in the Gen 2 environment. Migration strategies and software samples
 are provided for each of these areas in the following sections.
+
+## Hands-on experience
+
+If you're starting or looking into Python 2 to 3 migration from the first-gen to second-gen App Engine runtimes, Google is going to try to help you so you don't have to both port from 2.x to 3.x **and** move from bundled to unbundled services at the same time. One of those resources are a set of hands-on tutorials (called codelabs) along with a matching repo. Find them at https://github.com/googlecodelabs/migrate-python2-appengine ... they are meant to be complementary to the examples found here in this repo.
