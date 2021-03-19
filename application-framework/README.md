@@ -5,11 +5,13 @@ often built using a web framework.
 
 The first public versions of App Engine supported a framework called 
 [webapp](https://cloud.google.com/appengine/docs/standard/python/refdocs/google.appengine.ext.webapp).
-Webapp was deprecated, but the open source
-[webapp2](https://webapp2.readthedocs.io/en/latest/) framework is still
-popular for Python 2.7 apps. That framework does not support Python 3, so
-other frameworks must be used to migrate your web applications to
-App Engine for Python 3.
+Webapp was [deprecated along with Python 2.5 in
+2013](https://cloud.google.com/appengine/docs/standard/python/python25), but
+the open source [webapp2](https://webapp2.readthedocs.io) framework is still
+popular for Python 2.7 apps. While users have gotten that framework to work
+on Python 3 App Engine](https://github.com/fili/webapp2-gae-python37), it is
+no longer bundled nor supported by Google Cloud, so you must migrate to
+frameworks that are WSGI-compliant and handle routing for Python 3.
 
 The popular frameworks [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 and [Django](https://www.djangoproject.com/) work well with Python 2.7 and
@@ -35,4 +37,7 @@ are shown in this table:
 
 Due to the minimal nature of the webapp2 framework, migration to Flask is
 generally straightforward. See the "Hello, world" examples linked above
-to survey the process.
+to survey the process, *or*, if you feel like you need to practice this
+migration on a sample app, check out [the Flask migration
+codelab](http://g.co/codelabs/pae-migrate-flask) and corresponding code
+samples.
